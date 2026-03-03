@@ -23,7 +23,7 @@
   {
     "name": "CrossBrowser Regression",
     "desc": "Automated regression across Chrome, Firefox and Edge reducing production defects.",
-    "image": "CrossBrowseRegression",
+    "image": "CrossBrowserRegression",
     "category": "qa",
     "links": { "view": "#", "code": "#" }
   },
