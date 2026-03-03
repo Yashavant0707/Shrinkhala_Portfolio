@@ -71,7 +71,12 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: [
+  "Quality Assurance Engineering",
+  "Automation Testing",
+  "Software Test Engineering",
+  "Software Engineering"
+],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -110,7 +115,7 @@ function showProjects(projects) {
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/Portfolio-Website/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
