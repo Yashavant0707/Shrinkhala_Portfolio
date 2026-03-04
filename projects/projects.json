@@ -1,63 +1,63 @@
 [
   {
     "name": "Enterprise Test Automation Framework",
-    "desc": "Hybrid Selenium-TestNG framework implementing Page Object Model with 150+ automated test cases and 70% regression coverage.",
+    "desc": "Hybrid Selenium-TestNG automation framework built using the Page Object Model design pattern. The framework supports scalable test execution with modular architecture, reusable components and detailed reporting. It currently contains more than 150 automated test cases covering regression, smoke and sanity scenarios ensuring faster validation of enterprise web applications.",
     "image": "EnterpriseTest",
     "category": "qa",
     "links": { "view": "#", "code": "#" }
   },
   {
     "name": "API Automation Framework",
-    "desc": "REST API automation suite validating 50+ endpoints with response and schema validation.",
+    "desc": "Comprehensive REST API automation framework designed to validate more than 50 endpoints using request-response validation, schema verification and data driven execution. The framework ensures API stability, improves backend reliability and accelerates release validation by automating repeated service level test scenarios.",
     "image": "APIAutomation",
     "category": "qa",
     "links": { "view": "#", "code": "#" }
   },
   {
     "name": "Banking Loan Workflow Suite",
-    "desc": "End-to-end testing validating KYC, eligibility checks and onboarding workflows.",
+    "desc": "End-to-end automation test suite validating complex banking loan workflows including KYC verification, eligibility checks, document validation and onboarding steps. The suite ensures smooth user journeys and helps prevent functional defects in critical financial application processes.",
     "image": "BankingWFS",
     "category": "qa",
     "links": { "view": "#", "code": "#" }
   },
   {
     "name": "CrossBrowser Regression",
-    "desc": "Automated regression across Chrome, Firefox and Edge reducing production defects.",
+    "desc": "Automated regression testing suite executing the same test scenarios across multiple browsers including Chrome, Firefox and Microsoft Edge. This solution helps identify UI inconsistencies, browser specific failures and ensures consistent user experience across platforms.",
     "image": "CrossBrowserRegression",
     "category": "qa",
     "links": { "view": "#", "code": "#" }
   },
   {
     "name": "Data Driven Framework",
-    "desc": "Selenium framework using Apache POI for scalable data-driven execution.",
+    "desc": "A Selenium automation framework implementing data driven testing using Apache POI to read and manage test data from Excel files. The framework enables scalable execution with multiple datasets, improves reusability of test scripts and reduces duplication in automation logic.",
     "image": "DataDrivenFramework",
     "category": "qa",
     "links": { "view": "#", "code": "#" }
   },
   {
     "name": "Defect Management Workflow",
-    "desc": "Jira-based defect lifecycle management with RCA and validation cycles.",
+    "desc": "Structured defect lifecycle workflow integrated with Jira for tracking issues, performing root cause analysis and validating bug fixes. The system ensures clear communication between QA and development teams while maintaining traceability of defects throughout the testing lifecycle.",
     "image": "DefectManagement",
     "category": "qa",
     "links": { "view": "#", "code": "#" }
   },
   {
     "name": "Smoke & Sanity Suite",
-    "desc": "Lightweight automation suite for quick validation before release.",
+    "desc": "Lightweight automation test suite designed for quick validation of critical functionalities before every build release. It helps detect major issues early in the development cycle and provides rapid feedback on application stability.",
     "image": "SmokeSS",
     "category": "qa",
     "links": { "view": "#", "code": "#" }
   },
   {
     "name": "Performance & Load Validation",
-    "desc": "Basic performance testing using JMeter validating concurrent users and response time stability under peak load.",
+    "desc": "Performance testing solution implemented using Apache JMeter to simulate concurrent users and evaluate system behavior under peak load conditions. The tests measure response time, throughput and system stability to ensure reliable application performance.",
     "image": "PerformanceLV",
     "category": "qa",
     "links": { "view": "#", "code": "#" }
   },
   {
     "name": "CI/CD Integrated Automation Pipeline",
-    "desc": "Integrated Selenium automation suite with Jenkins pipeline enabling automated test execution on every deployment.",
+    "desc": "Continuous integration pipeline integrating Selenium automation with Jenkins to automatically trigger regression suites on every deployment. This setup ensures faster feedback cycles, early defect detection and stable delivery of application releases.",
     "image": "CICDPipeline",
     "category": "qa",
     "links": { "view": "#", "code": "#" }

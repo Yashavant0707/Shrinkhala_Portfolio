@@ -176,6 +176,9 @@ header .navbar ul li a:hover{
   width: 50%;
   justify-content: center;
   align-items: center;
+
+
+
 }
 .work .button-group .btn{
   outline: none;
@@ -195,12 +198,14 @@ header .navbar ul li a:hover{
   background-color: #fff;
   color: #000;
 }
+
 .work .box-container{
-  display: flex;
-  flex-wrap: wrap;
-  gap:1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
   margin: 2rem;
 }
+
 .work .box-container .box{
   flex:1 1 30rem;
   border-radius: .5rem;
@@ -351,3 +356,21 @@ header .navbar ul li a:hover{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+.project-card{
+height:auto !important;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px) scale(1.03);
+background:#f4f6ff;
+box-shadow:0 15px 40px rgba(0,0,0,0.35);
+}
+
+.project-desc p{
+font-size:1.5rem;
+line-height:1.7;
+text-align:center;
+}
+
